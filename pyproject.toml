@@ -1,0 +1,19 @@
+[project]
+name = "authon-sdk"
+version = "1.0.0"
+description = "Official Authon SDK for Python — Software Licensing & Authentication"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Authon", email = "support@authon.pro"}]
+keywords = ["authon", "licensing", "authentication", "hwid", "sdk"]
+dependencies = ["requests>=2.28.0"]
+
+[project.urls]
+Homepage = "https://authon.pro"
+Documentation = "https://authon.pro/docs/sdk/python"
+Repository = "https://github.com/authonpro/sdk-python"
+Discord = "https://discord.gg/jMZCTKPsmE"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
